@@ -28,7 +28,7 @@ app.set('view engine', 'pug');
 app.set('config', config);
 app.set('db', db);
 app.set('trust proxy', true);
-app.set('port', process.env.PORT || 3000);
+
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
