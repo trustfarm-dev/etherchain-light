@@ -45,6 +45,10 @@ Supported Ethereum backend nodes: Parity (Geth is currently not supported as it 
 2. Install the latest version of the Parity Ethereum client
 3. Start parity using the following options: `parity --chain=<yourchain> --tracing=on --fat-db=on --pruning=archive`
 4. Clone this repository to your local machine: `git clone https://github.com/gobitfly/etherchain-light --recursive` (Make sure to include `--recursive` in order to fetch the solc-bin git submodule)
+
+또는 `git clone https://github.com/gobitfly/etherchain-light` 이후, 
+`cd etherchain-light ; git submodule update --init --recursive` 할것.
+
 5. Install all dependencies: `npm install`
 6. Rename `config.js.example` into `config.js` and adjust the file to your local environment
 7. Start the explorer: `npm start`
